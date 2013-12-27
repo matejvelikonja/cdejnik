@@ -1,0 +1,307 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=No
+Exchange=No
+Text=Yes
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\Macromed\Flash\Flash.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\Comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\cdejnik.mdb=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\Readme.txt=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\users.mdb=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\uvod.swf=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\nopic.jpg=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Readme2.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\cdejnik3.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\Macromed\Flash\Flash.ocx=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\cdejnik.mdb=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\Readme.txt=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\users.mdb=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\uvod.swf=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\nopic.jpg=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Readme2.txt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\cdejnik3.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Macromed\Flash\Flash.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\cdejnik.mdb=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\Readme.txt=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\users.mdb=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\uvod.swf=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\nopic.jpg=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Readme2.txt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\cdejnik3.exe=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\cdejnik.mdb=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\Readme.txt=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\users.mdb=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\uvod.swf=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\nopic.jpg=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Readme2.txt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=CDejnik  3.0
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=CDejnik  3.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|CDejnik  3.0]
+Icon1=cdejnik3.exe
+Title1=CDejnik  3.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Setup
+ProjectFolder=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0
+ServerSideCab=
+File1=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Setup\setup.exe
+File2=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Setup\Setup.Lst
+File3=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Setup\cdejnik3.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\setup
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\Comdlg32.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\nopic.jpg=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\Readme2.txt=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\cdejnik.mdb=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\Readme.txt=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\users.mdb=
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\uvod.swf=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\cdejnik3.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\Macromed\Flash\Flash.ocx=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\nopic.jpg=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\Readme2.txt=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\cdejnik.mdb=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\Readme.txt=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\users.mdb=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\uvod.swf=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\cdejnik3.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Macromed\Flash\Flash.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\nopic.jpg=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\Readme2.txt=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\cdejnik.mdb=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\Readme.txt=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\users.mdb=$(AppPath)
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\uvod.swf=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\cdejnik3.exe=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\nopic.jpg=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Pics\Readme2.txt=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\cdejnik.mdb=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\Readme.txt=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\users.mdb=No
+C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\Files\uvod.swf=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=CDejnik  3.0
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=CDejnik  3.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|CDejnik  3.0]
+Icon1=cdejnik3.exe
+Title1=CDejnik  3.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\setup
+ProjectFolder=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0
+ServerSideCab=
+File1=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\setup\setup.exe
+File2=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\setup\Setup.Lst
+File3=C:\Documents and Settings\Matej\My Documents\Racunalnik\CDejnik 3.0\setup\cdejnik3.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
